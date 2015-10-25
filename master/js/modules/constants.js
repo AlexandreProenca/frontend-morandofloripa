@@ -34,7 +34,7 @@ App
       'classyloader':       ['vendor/jquery-classyloader/js/jquery.classyloader.min.js'],
       'animo':              ['vendor/animo.js/animo.js'],
       'fastclick':          ['vendor/fastclick/lib/fastclick.js'],
-      //'modernizr':          ['vendor/modernizr/modernizr.js'],
+      'modernizr':          ['vendor/modernizr/modernizr.js'],
       'animate':            ['vendor/animate.css/animate.min.css'],
       'icons':              ['vendor/skycons/skycons.js',
                              'vendor/fontawesome/css/font-awesome.min.css',
