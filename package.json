@@ -1,6 +1,6 @@
 {
   "name": "MorandoFloripa",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Plataforma colaborativa de oferta e procura de imoveis",
   "author": "@alexandreproenca",
 
@@ -43,8 +43,8 @@
     "yargs": "^3.7.2"
   },
   "scripts": {
-    "prestart": "npm install",
+    "prestart": "bower install",
     "start": "node index.js",
-    "poststart": "bower install"
+    "poststart": "gulp"
   }
 }
