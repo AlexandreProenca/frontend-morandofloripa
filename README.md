@@ -5,3 +5,5 @@
     sudo gem install sass
     sudo gem install compass
     gulp --usesass
+
+    node index.js
