@@ -43,8 +43,8 @@
     "yargs": "^3.7.2"
   },
   "scripts": {
-    "prestart": "bower install",
+    "prestart": "npm install",
     "start": "node index.js",
-    "poststart": "gulp"
+    "poststart": "bower install"
   }
 }
