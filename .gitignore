@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+platforms/
+downloaded/
+docular_generated/
+.sass-cache/
+node_modules/
+res/
+engine/
+plugins/
+bfg.jar
+hooks/.DS_Store
+.idea/
+npm-debug.log
+.DS_Store
+hooks/
+master/bower_components/
+vendor/

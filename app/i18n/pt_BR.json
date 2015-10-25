@@ -1,0 +1,110 @@
+{
+  "dashboard": {
+    "WELCOME": "Bem Vindo {{appName}}"
+  },
+  "topbar": {
+    "messages": {
+      "UNREAD": "Unread messages",
+      "MORE": "Mensagens não lidas"
+    },
+    "search": {
+      "PLACEHOLDER": "Digite aqui..."
+    },
+    "notification": {
+      "MORE": "Mais notificações"
+    }
+  },
+  "offsidebar": {
+    "setting": {
+      "SETTINGS": "Configurações",
+      "THEMES": "Temas",
+      "layout": {
+        "FIXED": "Fixado",
+        "COLLAPSED": "Collapsado"
+      }
+    },
+    "chat": {
+      "CONNECTIONS": "Conexões",
+      "SEARCH": "Procurar contatos",
+      "ONLINE": "ONLINE",
+      "OFFLINE": "OFFLINE",
+      "LOAD_MORE": "Mais...",
+      "TASK_COMPLETION": "Tarefa Completa",
+      "QUOTA": "Upload Quota"
+    }
+  },
+  "sidebar": {
+    "WELCOME": "Bem vindo!",
+    "heading": {
+      "HEADER": "Navegação principal",
+      "COMPONENTS": "Componentes",
+      "MORE": "Mais"
+    },
+    "nav": {
+      "DASHBOARD": "Painel de Controle",
+      "WIDGETS": "Widgets",
+      "WIDGETS": "Widgets",
+      "DOCUMENTATION": "Documentação",
+      "element": {
+        "ELEMENTS": "Elementos",
+        "BUTTON": "Buttons",
+        "COLOR": "Cores",
+        "NOTIFICATION": "Notificações",
+        "INTERACTION": "Interação",
+        "SPINNER": "Spinner",
+        "ANIMATION": "Animação",
+        "DROPDOWN": "Dropdown",
+        "PANEL": "Painel",
+        "PORTLET": "Retrato",
+        "GRID": "Grid",
+        "GRID_MASONRY": "Grid Masonry",
+        "TYPO": "Tipografia",
+        "FONT_ICON": "Font Icons",
+        "WEATHER_ICON": "Weather Icons"
+      },
+      "form": {
+        "FORM": "Formulários",
+        "STANDARD": "Standard",
+        "EXTENDED": "Extended",
+        "VALIDATION": "Validação",
+        "WIZARD": "Wizard",
+        "UPLOAD": "Upload"
+      },
+      "chart": {
+        "CHART": "Gráficos",
+        "FLOT": "Flot",
+        "RADIAL": "Radial"
+      },
+      "table": {
+        "TABLE": "Tabelas",
+        "STANDARD": "Standard",
+        "EXTENDED": "Extended",
+        "DATATABLE": "Datatable"
+      },
+      "map": {
+        "MAP": "Mapas",
+        "GOOGLE": "Google Map",
+        "VECTOR": "Vector Map"
+      },
+      "extra": {
+        "EXTRA": "Extras",
+        "MAILBOX": "Mailbox",
+        "TIMELINE": "Timeline",
+        "CALENDAR": "Calendario",
+        "INVOICE": "Invoice",
+        "SEARCH": "Search",
+        "TODO": "Todo List",
+        "PROFILE": "Profile"
+      },
+      "pages": {
+        "PAGES": "Paginas",
+        "LOGIN": "Login",
+        "REGISTER": "Registrar-se",
+        "RECOVER": "Recuperar senha",
+        "PROFILE": "Profile",
+        "LOCK": "Bloquear Tela",
+        "STARTER": "Starter Template"
+      }
+    }
+  }
+}
