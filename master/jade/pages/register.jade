@@ -15,13 +15,13 @@
           span.text-danger(ng-show="registerForm.account_email.$dirty && registerForm.account_email.$error.email") This field must be a valid email address
         .form-group.has-feedback
           label.text-muted Password
-          input#id-password.form-control(type='password', name="account_password", ng-model="register.password", ng-pattern="/^[a-zA-Z0-9]{6,10}$/", required='')
+          input#id-password.form-control(type='password', name="account_password", ng-model="account.password", ng-pattern="/^[a-zA-Z0-9]{6,10}$/", required='')
           span.fa.fa-lock.form-control-feedback.text-muted
           span.text-danger(ng-show="registerForm.account_password.$dirty && registerForm.account_password.$error.required") This field is required
           span.text-danger(ng-show="registerForm.account_password.$dirty && registerForm.account_password.$error.pattern") Input should match 'a-zA-Z0-9' and 6-10 length
         .form-group.has-feedback
           label.text-muted Retype Password
-          input.form-control(type='password', name="account_password_confirm", ng-model="register.account_password_confirm", ui-validate="'$value==register.password'" ui-validate-watch="'password'")
+          input.form-control(type='password', name="account_password_confirm", ng-model="account.account_password_confirm", ui-validate="'$value==account.password'" ui-validate-watch="'password'")
           span.fa.fa-lock.form-control-feedback.text-muted
           span.text-danger(ng-show="registerForm.account_password_confirm.$dirty && registerForm.account_password_confirm.$error.validator") Password does Not match
         .clearfix

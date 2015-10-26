@@ -16,14 +16,14 @@ App.controller('RegisterFormController', ['$scope', '$http', '$state', function(
     if($scope.registerForm.$valid) {
 
       $http
-        .post('api/account/register', {email: $scope.account.email, password: $scope.account.password})
+        .post('https://backend-morandofloripa.herokuapp.com/v1/users/', {email: $scope.account.email, username: $scope.account.email, password: $scope.account.password})
         .then(function(response) {
           // assumes if ok, response is an object with some data, if not, a string with error
           // customize according to your api
-          if ( !response.account ) {
+          if ( !response.status == 201 ) {
             $scope.authMsg = response;
           }else{
-            $state.go('app.dashboard');
+            $state.go('page.login');
           }
         }, function(x) {
           $scope.authMsg = 'Server Request Error';

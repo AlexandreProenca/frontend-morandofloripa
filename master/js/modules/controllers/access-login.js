@@ -21,10 +21,9 @@ App.controller('LoginFormController', ['$scope', '$http', '$state', function($sc
           // assumes if ok, response is an object with some data, if not, a string with error
           // customize according to your api
           if ( !response.status == 200 ) {
-            console.log("sf",response);
             $scope.authMsg = 'Incorrect credentials.';
           }else{
-
+            localStorage.setItem('token_user', JSON.stringify(response.data));
             $state.go('app.dashboard');
           }
         }, function(x) {
